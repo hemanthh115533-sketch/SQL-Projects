@@ -43,7 +43,7 @@ GROUP BY stage
 ORDER BY 1 DESC;
 
 
--- Companies with layoffs each month and doing a rolling total to fetch the collective total for the end of each year!
+-- Companies with layoffs each month and doing a rolling total to fetch the collective total at the end of each year!
 WITH Rolling_Total AS
 (
 SELECT SUBSTRING(`date`,1,7) AS `MONTH`, SUM(total_laid_off) AS total_off
