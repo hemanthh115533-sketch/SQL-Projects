@@ -1,4 +1,4 @@
---We are just going to explore the data and find trends, patterns or anything interesting like outliers!
+--Exploring the data, find trends, patterns or anything interesting like outliers!
 
 -- Looking at the percentage to see how big these layoffs were
 SELECT MAX(total_laid_off), MAX(percentage_laid_off)
